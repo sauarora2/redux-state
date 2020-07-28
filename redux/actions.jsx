@@ -1,8 +1,8 @@
 let actions = {
-  addTodo: function(text) {
+  addTodo: function(data) {
     return {
       type: "ADD_TODO",
-      text: text
+      data: data
     }
   }
 }

@@ -5,16 +5,11 @@ function getId(state) {
 }
 
 let reducer = function(state, action) {
-  switch(action.type) {
+  switch(action.type) { 
     case "ADD_TODO":
-      return Object.assign({}, state,  {
-        todos: [{
-          text: action.text,
-          completed: false,
-          id: getId(state)
-
-        }, ...state.todos]
-      })
+      return {
+        searchresults: action.data
+    }
     default:
       return state;
   }
