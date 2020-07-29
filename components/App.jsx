@@ -4,6 +4,7 @@ import RecipeReviewCard from './RecipeReviewCard'
 import Search from './Search'
 import { bindActionCreators } from 'redux'
 import { connect } from 'react-redux'
+import './mystyle.css';
 
 class App extends React.Component {
 
