@@ -48,7 +48,7 @@ class Search extends Component {
                 <div class="td" id="s-cover">
                 <button onClick={this.handleSubmit}>
                 <div id="s-circle"></div>
-                <span></span>
+                <span id="s-circle-span"></span>
                 </button>
                 </div>
                 </div>
