@@ -95,7 +95,7 @@ button
     transition: 0.5s ease all;
 }
 
-button span
+#s-circle-span
 {
     position: absolute;
     top: 68px;
@@ -109,7 +109,7 @@ button span
     transition: 0.5s ease all;
 }
 
-button span:before, button span:after
+#s-circle-span:before, #s-circle-span:after
 {
     content: '';
     position: absolute;
