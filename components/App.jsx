@@ -1,10 +1,11 @@
+import './mystyle.css';
+
 import PropTypes from "prop-types";
 import React from 'react'
-import RecipeReviewCard from './RecipeReviewCard'
+import ResultCard from './ResultCard'
 import Search from './Search'
 import { bindActionCreators } from 'redux'
 import { connect } from 'react-redux'
-import './mystyle.css';
 
 class App extends React.Component {
 
@@ -12,7 +13,7 @@ class App extends React.Component {
     return  (
     <div>
       <Search dispatch ={this.props.dispatch}/>
-      <RecipeReviewCard searchresults={this.props.searchresults}/>
+      <ResultCard searchresults={this.props.searchresults}/>
     </div>
     )
     
